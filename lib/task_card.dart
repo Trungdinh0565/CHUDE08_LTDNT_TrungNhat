@@ -3,14 +3,15 @@ import 'package:flutter/material.dart';
 class TaskCard extends StatefulWidget {
   final String title;
   final Duration duration;
-  
+
   const TaskCard({super.key, required this.title, required this.duration});
-  
+
   @override
   State<TaskCard> createState() => _TaskCardState();
 }
 
-class _TaskCardState extends State<TaskCard> with SingleTickerProviderStateMixin {
+class _TaskCardState extends State<TaskCard>
+    with SingleTickerProviderStateMixin {
   late final AnimationController _c;
   late final Animation<double> _scale;
   bool _expanded = false;
@@ -44,10 +45,10 @@ class _TaskCardState extends State<TaskCard> with SingleTickerProviderStateMixin
   Widget build(BuildContext context) {
     return AnimatedContainer(
       duration: widget.duration,
-      margin: const EdgeInsets.all(😎,
+      margin: const EdgeInsets.all(8.0),
       decoration: BoxDecoration(
         color: _done ? Colors.green.shade100 : Colors.white,
-        borderRadius: BorderRadius.circular(_expanded ? 24 : 😎,
+        borderRadius: BorderRadius.circular(_expanded ? 24.0 : 8.0),
         border: Border.all(color: Colors.grey.shade300),
       ),
       child: Column(
