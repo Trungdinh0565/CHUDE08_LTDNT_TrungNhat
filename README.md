@@ -12,7 +12,6 @@ Nội dung lý thuyết tập trung vào các loại Animation trong Flutter, ba
 - Sử dụng AnimatedContainer và AnimatedCrossFade để triển khai Implicit Animation.
 - Sử dụng AnimationController, Tween và ScaleTransition để triển khai Explicit Animation.
 - Xử lý tương tác người dùng thông qua Gesture và các thao tác chạm.
-- Kết hợp hiệu ứng chuyển động với thao tác hoàn thành, mở rộng và xóa công việc.
 - Hỗ trợ chế độ giảm chuyển động (Reduce Motion) nhằm cải thiện trải nghiệm người dùng.
 
 ## 2. Công nghệ sử dụng
